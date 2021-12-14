@@ -6,12 +6,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { CursoListaComponent } from './Cursos/curso-lista.component';
 import { StarComponent } from './Cursos/star/star.component';
+import { ReplacePipe } from './pipe/replace.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     CursoListaComponent,
-    StarComponent
+    StarComponent,
+    ReplacePipe
 
   ],
   imports: [
