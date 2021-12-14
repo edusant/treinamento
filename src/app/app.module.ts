@@ -16,7 +16,7 @@ import { StarComponent } from './Cursos/star/star.component';
   ],
   imports: [
     BrowserModule,
-    // FormsModule
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
