@@ -3,7 +3,6 @@ import { Curso } from "./curso";
 import { CursoService } from "./Curso.service";
 
 @Component({
-  selector: 'app-curso-lista',
   // templateUrl: '',
   // template: '<h2>Teste</h2>'
   templateUrl: './curso-lista.component.html'

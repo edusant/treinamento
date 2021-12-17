@@ -5,20 +5,24 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { CursoListaComponent } from './Cursos/curso-lista.component';
+import { NavBarComponent } from './Cursos/nav-bar/nav-bar.component';
 import { StarComponent } from './Cursos/star/star.component';
 import { ReplacePipe } from './pipe/replace.pipe';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     CursoListaComponent,
     StarComponent,
-    ReplacePipe
+    ReplacePipe,
+    NavBarComponent
 
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
